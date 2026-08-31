@@ -36,5 +36,9 @@ manifest:
     - name: zmk-oled-adapter
       remote: mctechnology17
       revision: main
+    - name: zmk-config-klor
+      url: https://github.com/zita94/zmk-config-klor
+      revision: master
+      path: modules/zmk-config-klor
   self:
     path: config
