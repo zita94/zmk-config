@@ -65,9 +65,9 @@ include:
   #  shield: lily58_right nice_oled
   #  cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
   #  artifact-name: nice_lily58_right_oled
-  - board: nice_nano_v2
+  - board: nrf52840_m2
     shield: klor_left
-  - board: nice_nano_v2
+  - board: nrf52840_m2
     shield: klor_right
 
   ### SETTINGS_RESET START ###
