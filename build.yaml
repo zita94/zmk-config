@@ -53,10 +53,6 @@
 # cmake-args: -DKEYMAP_FILE=../../config/other-corne.keymap -DCONFIG_ZMK_KEYBOARD_NAME=\"other-corne\" -DEXTRA_CONF_FILE=../../config/other-corne.conf
 ---
 include:
-  - board: nice_nano_v2
-    shield: klor_left
-  - board: nice_nano_v2
-    shield: klor_right
 
    ### LILY58 START ###
   # nice!oled lily58
@@ -69,6 +65,10 @@ include:
   #  shield: lily58_right nice_oled
   #  cmake-args: -DCONFIG_ZMK_SLEEP=y -DCONFIG_ZMK_IDLE_TIMEOUT=60000
   #  artifact-name: nice_lily58_right_oled
+  - board: nrf52840_m2
+    shield: klor_left
+  - board: nrf52840_m2
+    shield: klor_right
 
   ### SETTINGS_RESET START ###
   #- board: nice_nano_v2
